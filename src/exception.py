@@ -18,4 +18,3 @@ class CustomException(Exception):
     # Python automatically calls this.
     def __str__(self):
         return self.error_message
-    
